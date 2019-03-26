@@ -59,7 +59,7 @@ class CardContainer extends React.Component {
           transform: [
             {translateZ: this.state.animatedTranslation},
           ],
-          width: 6.3,
+          width: 310,
         }}
       >
         <VrButton

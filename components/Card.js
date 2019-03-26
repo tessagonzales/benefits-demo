@@ -31,15 +31,15 @@ class Card extends React.Component {
     } = this.state
     return (
       <View style={{
-        width: 6,
-        height: 6,
+        width: 300,
+        height: 300,
         backgroundColor: '#FFF',
         alignItems: 'center',
       }}>
         <Image
           style={{
-            width: 6,
-            height: 3,
+            width: 300,
+            height: 150,
           }}
           source={asset(thumbnailSrc)}
         >
@@ -49,7 +49,7 @@ class Card extends React.Component {
         }}>
           <Text style={{
             color: 'lightgrey',
-            fontSize: .7,
+            fontSize: 20,
             fontWeight: 'bold',
             textAlign: 'center',
             fontFamily: 'Helvetica'
@@ -58,7 +58,7 @@ class Card extends React.Component {
           </Text>
           <Text style={{
             color: 'grey',
-            fontSize: .20,
+            fontSize: 12,
             textAlign: 'center',
             fontFamily: 'Helvetica'
           }}>
